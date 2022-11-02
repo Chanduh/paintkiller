@@ -1,64 +1,28 @@
-/* - Needs a shopping cart or something
-- needs product page or some sort of thing
-- needs some products
-- needs original graphic logo
-- needs domain fwding from glassphemy or? */
+* {
+    /* border: 1px solid green; */
 
-
-
-
-@media (min-width: 850px) {
-
-    /* #flame {
-        visibility: hidden;
-    } */
-    #productContainer {
-        margin-top: -100px !important;
-    }
-
-    li {
-        background-color: black;
-        color: white;
-        font-size: 1.25rem;
-        padding: 15px;
-        margin: 15px;
-        list-style: none;
-    }
-
-    #sidebar {
-        position: absolute;
-        top: 180px;
-        left: 600px;
-        margin-left: 0px; !important;
-        display: block;
-
-    }
-
-    ul {
-        position: relative;
-    }
-
-    #flame {
-        left: 700px !important;
-
-    }
 }
 
-#sidebar {
-    margin-left: 1.1vw;
+
+
+@media (min-width: 401px) {
+    
+   
+}
+
+header {
+
 }
 
 #wrapper {
-    max-width: 800px;
-    width: fit-content;
+    max-width: 1000px;
+    overflow-x: hidden;
 }
 
 #flame {
     position: absolute;
-    left: 75vw;
+    right: 5vw;
     width: 30vw;
-    max-width: 70px;
-    z-index: 1;
 }
 
 #flame:hover {
@@ -67,22 +31,17 @@
 
 #skull {
     position: absolute;
-    top: 160px;
-    left: 50px;
+    top: 33vw;
+    left: 10vw;
     width: 35vw;
-    max-width: 200px;
-    z-index: 2;
-
 }
 
 #logo {
     position: relative;
-    max-width: 600px;
     width: 98vw;
     margin-right: 1vw;
     margin-left: 1vw;
     margin-top: 1vw;
-    z-index: 1;
 
 }
 
@@ -97,16 +56,16 @@ body {
     padding: 0px;
     font-family: 'Courier New', Courier, monospace;
     background-color: yellow;
+
 }
 
 
 #productContainer {
     margin-top: -20vw;
-    margin-left: 2vw;
-    margin-right: 5vw;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 .flexItem {
@@ -116,8 +75,6 @@ body {
     min-width: 300px;
     padding: 10px;
     margin: 10px;
-    z-index: 2;
-
 }
 
 .figure {
@@ -135,17 +92,15 @@ img.figure {
 
 .price {
     position: relative;
-    bottom: -15px;
+    bottom: -5px;
     font-size: 1.25rem;
     font-weight: bold;
 }
 
-.buy {
-    position: right;
-    margin-left: 88%;
-
+button {
     position: relative;
-    bottom: 10px;    
+    bottom: 0px;
+    top: 3px;    
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -154,4 +109,6 @@ img.figure {
     color: white;
     background-color: black;
     font-weight: bold;
+
 }
+
