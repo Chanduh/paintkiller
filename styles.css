@@ -6,13 +6,9 @@
 - needs domain fwding from glassphemy or? */
 
 
-
-
 @media (min-width: 755px) {
 
-    /* #flame {
-        visibility: hidden;
-    } */
+
     #productContainer {
         margin-top: -100px !important;
         z-index: 2 !important;
@@ -113,12 +109,11 @@ ul {
 #logo {
     position: relative;
     max-width: 600px;
-    width: 98vw;
+    width: 93vw;
     margin-right: 1vw;
     margin-left: 1vw;
     margin-top: 1vw;
     z-index: 1;
-
 }
 
 .gradient {
