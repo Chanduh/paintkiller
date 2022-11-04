@@ -1,12 +1,13 @@
 const menu = document.getElementById('sidebar')
-const flame = document.getElementById('flame')
 const logo = document.getElementById('logo')
+const skull = document.getElementById('skull')
 
 
 logo.addEventListener('click', function() {
     menu.classList.toggle('is-active');
 });
 
-flame.addEventListener('click', function() {
+skull.addEventListener('click', function() {
     menu.classList.toggle('is-active');
 });
+
